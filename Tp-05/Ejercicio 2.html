@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+</head>
+
+<body>
+    <h1><strong><u>Respuesta Ejercicio 2</u></strong></h1>
+    <h2><strong>Categoria: <u>VideoJuegos</u></strong></h2>
+
+    <form action="/registro" method="post">
+        <label for="nombre">Nombre y apellido:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+        <label for="nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="nacimiento" name="nacimiento" required>
+
+        <br>
+        <label for="DNI">DNI:</label>
+        <input type="number" id="DNI" name="DNI" required>
+        
+        <br>
+        <label for="telefono">Telefono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <br>
+        <label for="X">Usuario de X:</label>
+        <input type="text" id="X" name="X" required>
+
+        <br>
+        <label for="instagram">Usuario de instagram:</label>
+        <input type="text" id="instagram" name="instagram" required>
+
+        <br>
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" required>
+
+        <br>
+        <label for="provincia">Provincia:</label>
+        <input type="text" id="provincia" name="provincia" required>
+    </form>
+    <form action="/encuesta" method="post">
+        <br><label for="Tipo de juego">Tipo de juego que te agrade:</label> 
+        <select id="Tipo de juego" name="Tipo de juego" required> 
+            <option value="">Selecciona un tipo de juego</option> 
+            <option value="Casino">Casino</option> 
+            <option value="Metroid mania">Metroid Mania</option> 
+            <option value="Shotter">Shotter</option> 
+            <option value="Souls Like">Souls Like</option> 
+            <option value="Fighters">Fighters</option> 
+            <option value="Horror">Horror</option>
+            <option value="carrera">Carrera</option>
+            <option value="Battle Royale">Battle Royale</option>
+            <option value="hack and slash">Hack and Slash</option>
+        </select>
+    
+    
+        <br><strong><label for="intereses">Aspectos interesantes que te gusten en un juego:</label></strong>
+        <br><input type="checkbox" id="interes1" name="intereses" value="Banda sonora"> <label for="interes1">Banda sonora</label> 
+        <br><input type="checkbox" id="interes2" name="intereses" value="Controles"> <label for="interes2">Controles</label>
+        <br><input type="checkbox" id="interes3" name="intereses" value="Graficos"> <label for="interes3">Graficos</label>
+        <br><input type="checkbox" id="interes4" name="intereses" value="Jugabilidad"> <label for="interes4">Jugabilidad</label>
+        <br><input type="checkbox" id="interes5" name="intereses" value="Jugabilidad"> <label for="interes5">Jugabilidad</label>
+
+        <br><strong><label for="intereses">Cuanto tiempo dedicas a jugar videojuegos en la semana?:</label></strong>
+        <br><input type="checkbox" id="interes6" name="intereses" value="1-5"> <label for="interes6">de 1 horas a 5 horas</label> 
+        <br><input type="checkbox" id="interes7" name="intereses" value="5-10"> <label for="interes7">de 5 horas a 10 horas</label>
+        <br><input type="checkbox" id="interes8" name="intereses" value="10-20"> <label for="interes8">de 10 horas a 20 horas</label>
+        <br><input type="checkbox" id="interes9" name="intereses" value="20-30"> <label for="interes9">de 20 horas a 30 horas</label>
+        <br><input type="checkbox" id="interes10" name="intereses" value="30-40"> <label for="interes10">de 30 horas a 40 horas</label>
+    
+        <br><strong><label for="intereses">Te gustan los equipos en solitario o en equipo?:</label></strong>
+        <br><input type="checkbox" id="interes11" name="intereses" value="solitario"> <label for="interes11">Solitario</label> 
+        <br><input type="checkbox" id="interes12" name="intereses" value="equipo"> <label for="interes12">Equipo</label>
+
+        <br><strong><label for="intereses">Te gustan las microtransacciones en los juegos?:</label></strong>
+        <br><input type="checkbox" id="interes13" name="intereses" value="si"> <label for="interes13">Si</label> 
+        <br><input type="checkbox" id="interes14" name="intereses" value="no"> <label for="interes14">No</label>
+        <br><input type="checkbox" id="interes15" name="intereses" value="me dan igual"> <label for="interes15">Me dan igual</label>
+
+        <br><strong><label for="intereses">Has jugado algun torneo competitivo de algun juego?:</label></strong>
+        <br><input type="checkbox" id="interes16" name="intereses" value="si"> <label for="interes16">Si</label> 
+        <br><input type="checkbox" id="interes17" name="intereses" value="no"> <label for="interes17">No</label>
+        <br><input type="checkbox" id="interes18" name="intereses" value="me dan igual"> <label for="interes18">No me gusta competir</label>
+
+        <br><strong><label for="intereses":>te parece importante la personalizacion de personaje en los juegos</label></strong>
+        <br><input type="checkbox" id="interes19" name="intereses" value="si"> <label for="interes19">Si</label> 
+        <br><input type="checkbox" id="interes20" name="intereses" value="no"> <label for="interes20">No</label>
+        <br><input type="checkbox" id="interes21" name="intereses" value="me dan igual"> <label for="interes21">me da igual</label>
+        
+
+        <br><strong><label for="comentarios">Cual es tu opinion sobre los Bots en los juegos?:</label></strong>
+        <br><textarea id="comentarios" name="comentarios"></textarea>
+        <br><strong><label for="comentarios">Cual fue tu primer videojuego y que recuerdos tienes de el?:</label></strong>
+        <br><textarea id="comentarios" name="comentarios"></textarea>
+
+        <br><input type="submit" value="Enviar">
+        <br><a href="Tp-05.html">Respuestas Teoria</a>
+
+    </form>
+</body>
+
+</html>
